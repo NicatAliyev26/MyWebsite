@@ -1,0 +1,122 @@
+html{
+    scroll-behavior: smooth;
+}
+.section{
+    width: 100%;
+    height: 100px;
+    background-color: #161616;
+
+    .navbar{
+        
+        .logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #4BFFA5;
+            font-size: 22px;
+            margin-top: 20px;
+            margin-left: 40px;
+            width: 67.44px;
+            height: 46px;
+            border: 4.88723px solid #4BFFA5;
+            box-sizing: border-box;
+            font-family: 'Space Grotesk', sans-serif;
+        }
+    
+        .navbar-brand{
+            margin-left: 40px;
+        }
+        .navbar-collapse{
+            background-color: #161616;
+            margin-right: 40px;
+            margin-top: 20px;
+             a{
+                color: #fff;
+                font-weight: 500;
+                font-family: 'Roboto Mono', monospace;
+                font-size: 14px;
+             }
+    
+            span{
+                margin-left: 20px;
+                margin-right: 5px;
+                color: #4BFFA5;
+                font-weight: 500;
+                font-family: 'Roboto Mono', monospace;
+                font-size: 14px;
+            }
+        }
+    }
+    
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .section{
+        width: 100%;
+        height: 100px;
+        background-color: #161616;
+    
+        .navbar{
+            
+            .logo{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #4BFFA5;
+                font-size: 22px;
+                margin-top: 20px;
+                margin-left: 40px;
+                width: 67.44px;
+                height: 46px;
+                border: 4.88723px solid #4BFFA5;
+                box-sizing: border-box;
+                font-family: 'Space Grotesk', sans-serif;
+            }
+        
+            .navbar-brand{
+                margin-left: 40px;
+            }
+            .navbar-collapse{
+                margin-right: 40px;
+                margin-top: 20px;
+                 a{
+                    color: #fff;
+                    font-weight: 500;
+                    font-family: 'Roboto Mono', monospace;
+                    font-size: 14px;
+                 }
+        
+                span{
+                    margin-left: 20px;
+                    margin-right: 5px;
+                    color: #4BFFA5;
+                    font-weight: 500;
+                    font-family: 'Roboto Mono', monospace;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .section{
+        width: 100%;
+        height: 100px;
+        background-color: #161616;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

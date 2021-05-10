@@ -1,0 +1,719 @@
+.section-portfolio{
+    width: 100%;
+    height: 1300px;
+    display: flex;
+    background-color: #161616;
+
+
+
+
+    .portfolio{
+        display: flex;
+        justify-content: flex-start;
+
+
+        .number{
+            h1{
+                font-family: 'Roboto Mono', monospace;
+                color:#4BFFA5 ;
+            }
+        }
+        .text{
+            width: 100%;
+            margin-left: 110px;
+
+            
+            h1{
+                color: #fff;
+                font-family: 'Roboto Mono', monospace;
+            }
+
+            span{
+                display: flex;
+                justify-content: flex-start;
+                .icon{
+                    width: 1rem;
+                    color: #4BFFA5;
+                    margin-top: 60px;
+                }
+                p{
+                    width: 71%;
+                    margin-top: 59px;
+                    margin-left: 17px;
+                    color: #989898;                   
+                    font-family: 'Space Grotesk', sans-serif;
+                    line-height: 1;
+                    
+                    .main-text{
+                       color: #fff;
+                       font-size: 15px;
+                       font-family: 'Space Grotesk', sans-serif;
+                    }
+                    .sentence{
+                       width: 139%;
+                    }                          
+                }
+            }
+
+            .pictures{
+                width: 95%;
+                height: auto;
+                margin-top: 70px;
+
+
+                .up{
+                   display: flex;
+                   justify-content: space-between;
+                   padding-left: 0px;
+
+
+                   li{
+                       list-style: none;
+                       img{
+                           width: 272px;
+                           max-width: 100%;
+                           height: auto;
+                       }
+                       h4{
+                           color: #fff;
+                           font-family:  'Space Grotesk', sans-serif;
+                       }
+                       p{
+                           color: #717171;
+                           font-family:'Roboto Mono', monospace ;
+                           word-spacing: 12px;
+                       }
+                   }  
+                }
+
+                .down{
+                   display: flex;
+                   justify-content: space-between;
+                   padding-left: 2px;
+                   margin-top: 100px;
+
+                   li{
+                       list-style: none;
+                       img{
+                           width: 272px;
+                           max-width: 100%;
+                           height: auto;                          
+                       }
+                       h4{
+                        color: #fff;
+                        font-family:  'Space Grotesk', sans-serif;
+                    }
+                    p{
+                        color: #717171;
+                        font-family:'Roboto Mono', monospace ;
+                        word-spacing: 12px;
+                    }
+                   }  
+                }
+            }
+
+        }
+    }
+}
+
+
+// ........................................................
+// ........................................................
+// ........................................................
+// ........................................................
+// ........................................................
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 375px) {
+    .section-portfolio{
+        width: 100%;
+        height: 2500px;
+        display: flex;
+        background-color: #161616;
+    
+    
+    
+    
+        .portfolio{
+            display: flex;
+            justify-content: flex-start;
+    
+    
+            .number{
+                h1{
+                    font-size: 21px;
+                    font-family: 'Roboto Mono', monospace;
+                    color:#4BFFA5 ;
+                }
+            }
+            .text{
+                width: 100%;
+                margin-left: 30px;
+    
+                
+                h1{
+                    font-size: 21px;
+                    color: #fff;
+                    font-family: 'Roboto Mono', monospace;
+                }
+    
+                span{
+                    display: flex;
+                    justify-content: flex-start;
+                    .icon{
+                        width: 1rem;
+                        color: #4BFFA5;
+                        margin-top: 60px;
+                    }
+                    p{
+                        width: 71%;
+                        margin-top: 59px;
+                        margin-left: 17px;
+                        color: #989898;                   
+                        font-family: 'Space Grotesk', sans-serif;
+                        line-height: 1;
+                        
+                        .main-text{
+                           color: #fff;
+                           font-size: 15px;
+                           font-family: 'Space Grotesk', sans-serif;
+                        }
+                        .sentence{
+                           width: 105%;
+                           line-height: 1.6;
+                        }                          
+                    }
+                }
+    
+                .pictures{
+                    width: 80%;
+                    height: auto;
+                    margin-top: 70px;
+    
+    
+                    .up{
+                       display: flex;
+                       flex-direction: column;
+                       justify-content: space-between;
+                       padding-left: 0px;
+    
+    
+                       li{
+                           list-style: none;
+                           margin-top: 60px;
+                           img{
+                               width: 272px;
+                               max-width: 100%;
+                               height: auto;
+                           }
+                           h4{
+                               color: #fff;
+                               font-family:  'Space Grotesk', sans-serif;
+                           }
+                           p{
+                               color: #717171;
+                               font-family:'Roboto Mono', monospace ;
+                               word-spacing: 12px;
+                           }
+                       }  
+                    }
+    
+                    .down{
+                       display: flex;
+                       flex-direction: column;
+                       justify-content: space-between;
+                       padding-left: 2px;
+                       margin-top: 0px;
+    
+                       li{
+                           list-style: none;
+                           margin-top: 60px;
+                           img{
+                               width: 272px;
+                               max-width: 100%;
+                               height: auto;                          
+                           }
+                           h4{
+                            color: #fff;
+                            font-family:  'Space Grotesk', sans-serif;
+                        }
+                        p{
+                            color: #717171;
+                            font-family:'Roboto Mono', monospace ;
+                            word-spacing: 12px;
+                        }
+                       }  
+                    }
+                }
+    
+            }
+        }
+    }
+}
+@media only screen and (min-width: 375px) {
+    .section-portfolio{
+        width: 100%;
+        height: 2580px;
+        display: flex;
+        background-color: #161616;
+    
+    
+    
+    
+        .portfolio{
+            display: flex;
+            justify-content: flex-start;
+    
+    
+            .number{
+                h1{
+                    font-size: 21px;
+                    font-family: 'Roboto Mono', monospace;
+                    color:#4BFFA5 ;
+                }
+            }
+            .text{
+                width: 100%;
+                margin-left: 30px;
+    
+                
+                h1{
+                    font-size: 21px;
+                    color: #fff;
+                    font-family: 'Roboto Mono', monospace;
+                }
+    
+                span{
+                    display: flex;
+                    justify-content: flex-start;
+                    .icon{
+                        width: 1rem;
+                        color: #4BFFA5;
+                        margin-top: 60px;
+                    }
+                    p{
+                        width: 71%;
+                        margin-top: 59px;
+                        margin-left: 17px;
+                        color: #989898;                   
+                        font-family: 'Space Grotesk', sans-serif;
+                        line-height: 1;
+                        
+                        .main-text{
+                           color: #fff;
+                           font-size: 15px;
+                           font-family: 'Space Grotesk', sans-serif;
+                        }
+                        .sentence{
+                           width: 105%;
+                           line-height: 1.6;
+                        }                          
+                    }
+                }
+    
+                .pictures{
+                    width: 80%;
+                    height: auto;
+                    margin-top: 70px;
+    
+    
+                    .up{
+                       display: flex;
+                       flex-direction: column;
+                       justify-content: space-between;
+                       padding-left: 0px;
+    
+    
+                       li{
+                           list-style: none;
+                           margin-top: 60px;
+                           img{
+                               width: 272px;
+                               max-width: 100%;
+                               height: auto;
+                           }
+                           h4{
+                               color: #fff;
+                               font-family:  'Space Grotesk', sans-serif;
+                           }
+                           p{
+                               color: #717171;
+                               font-family:'Roboto Mono', monospace ;
+                               word-spacing: 12px;
+                           }
+                       }  
+                    }
+    
+                    .down{
+                       display: flex;
+                       flex-direction: column;
+                       justify-content: space-between;
+                       padding-left: 2px;
+                       margin-top: 0px;
+    
+                       li{
+                           list-style: none;
+                           margin-top: 60px;
+                           img{
+                               width: 272px;
+                               max-width: 100%;
+                               height: auto;                          
+                           }
+                           h4{
+                            color: #fff;
+                            font-family:  'Space Grotesk', sans-serif;
+                        }
+                        p{
+                            color: #717171;
+                            font-family:'Roboto Mono', monospace ;
+                            word-spacing: 12px;
+                        }
+                       }  
+                    }
+                }
+    
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 425px){
+    .section-portfolio{
+        width: 100%;
+        height: 2772px;
+        display: flex;
+        background-color: #161616;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .section-portfolio{
+        width: 100%;
+        height: 972px;
+        display: flex;
+        background-color: #161616;
+    
+    
+    
+    
+        .portfolio{
+            display: flex;
+            justify-content: flex-start;
+    
+    
+            .number{
+                h1{
+                    font-family: 'Roboto Mono', monospace;
+                    color:#4BFFA5 ;
+                }
+            }
+            .text{
+                width: 100%;
+                margin-left: 20px;
+    
+                
+                h1{
+                    color: #fff;
+                    font-family: 'Roboto Mono', monospace;
+                }
+    
+                span{
+                    display: flex;
+                    justify-content: flex-start;
+                    .icon{
+                        width: 1rem;
+                        color: #4BFFA5;
+                        margin-top: 60px;
+                    }
+                    p{
+                        width: 71%;
+                        margin-top: 59px;
+                        margin-left: 17px;
+                        color: #989898;                   
+                        font-family: 'Space Grotesk', sans-serif;
+                        line-height: 1;
+                        
+                        .main-text{
+                           color: #fff;
+                           font-size: 15px;
+                           font-family: 'Space Grotesk', sans-serif;
+                        }
+                        .sentence{
+                           width: 139%;
+                        }                          
+                    }
+                }
+    
+                .pictures{
+                    width: 95%;
+                    height: auto;
+                    margin-top: 70px;
+    
+    
+                    .up{
+                       display: flex;
+                       flex-direction: row;
+                       justify-content: space-between;
+                       padding-left: 0px;
+    
+    
+                       li{
+                           list-style: none;
+                           margin-left: 10px;
+                           img{
+                               width: 272px;
+                               max-width: 100%;
+                               height: auto;
+                           }
+                           h4{
+                               color: #fff;
+                               font-family:  'Space Grotesk', sans-serif;
+                           }
+                           p{
+                               color: #717171;
+                               font-family:'Roboto Mono', monospace ;
+                               word-spacing: 12px;
+                           }
+                       }  
+                    }
+    
+                    .down{
+                       display: flex;
+                       flex-direction: row;
+                       justify-content: space-between;
+                       padding-left: 2px;
+                       margin-top: 100px;
+    
+                       li{
+                           list-style: none;
+                           margin-left: 10px;
+                           img{
+                               width: 272px;
+                               max-width: 100%;
+                               height: auto;                          
+                           }
+                           h4{
+                            color: #fff;
+                            font-family:  'Space Grotesk', sans-serif;
+                        }
+                        p{
+                            color: #717171;
+                            font-family:'Roboto Mono', monospace ;
+                            word-spacing: 12px;
+                        }
+                       }  
+                    }
+                }
+    
+            }
+        }
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .section-portfolio {
+        width: 100%;
+        height: 1080px;
+        display: flex;
+        background-color: #161616;
+
+      
+        .portfolio .number h1{
+            font-size: 32px;
+        }
+        .portfolio .text{
+            width: 100%;
+            margin-left: 20px;
+
+            
+            h1{
+                font-size: 32px;
+                color: #fff;
+                font-family: 'Roboto Mono', monospace;
+            }
+
+            span{
+                display: flex;
+                justify-content: flex-start;
+                .icon{
+                    width: 1rem;
+                    color: #4BFFA5;
+                    margin-top: 60px;
+                }
+                p{
+                    width: 71%;
+                    margin-top: 59px;
+                    margin-left: 17px;
+                    color: #989898;                   
+                    font-family: 'Space Grotesk', sans-serif;
+                    line-height: 1;
+                    
+                    .main-text{
+                       color: #fff;
+                       font-size: 15px;
+                       font-family: 'Space Grotesk', sans-serif;
+                    }
+                    .sentence{
+                       width: 139%;
+                    }                          
+                }
+                
+            }
+            .pictures{
+                width: 95%;
+                height: auto;
+                margin-top: 70px;
+        
+        
+                .up{
+                   display: flex;
+                   flex-direction: row;
+                   justify-content: space-between;
+                   padding-left: 0px;
+        
+        
+                   li{
+                       list-style: none;
+                       margin-left: 10px;
+
+                       img{
+                           width: 272px;
+                           max-width: 100%;
+                           height: auto;
+                       }
+                       h4{
+                           color: #fff;
+                           font-family:  'Space Grotesk', sans-serif;
+                       }
+                       p{
+                           color: #717171;
+                           font-family:'Roboto Mono', monospace ;
+                           word-spacing: 12px;
+                       }
+                   }  
+                }
+        
+                .down{
+                   display: flex;
+                   flex-direction: row;
+                   justify-content: space-between;
+                   padding-left: 2px;
+                   margin-top: 35px;
+        
+                   li{
+                       list-style: none;
+                       margin-left: 10px;
+                       img{
+                           width: 272px;
+                           max-width: 100%;
+                           height: auto;                          
+                       }
+                       h4{
+                        color: #fff;
+                        font-family:  'Space Grotesk', sans-serif;
+                    }
+                    p{
+                        color: #717171;
+                        font-family:'Roboto Mono', monospace ;
+                        word-spacing: 12px;
+                    }
+                }  
+            }
+        }
+      
+    }
+    
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .section-portfolio {
+        width: 100%;
+        height: 1077px;
+        display: flex;
+        background-color: #161616;
+
+        .portfolio .text{
+            width: 100%;
+            margin-left: 110px;
+
+    
+    .pictures{
+        width: 95%;
+        height: auto;
+        margin-top: 70px;
+
+
+        .up{
+           display: flex;
+           justify-content: space-between;
+           padding-left: 0px;
+
+
+           li{
+               list-style: none;
+               margin-left: 43px;
+               img{
+                   width: 272px;
+                   max-width: 100%;
+                   height: auto;
+               }
+               h4{
+                   color: #fff;
+                   font-family:  'Space Grotesk', sans-serif;
+               }
+               p{
+                   color: #717171;
+                   font-family:'Roboto Mono', monospace ;
+                   word-spacing: 12px;
+               }
+           }  
+        }
+
+        .down{
+           display: flex;
+           justify-content: space-between;
+           padding-left: 2px;
+           margin-top: 35px;
+
+           li{
+               list-style: none;
+               margin-left: 43px;
+               img{
+                   width: 272px;
+                   max-width: 100%;
+                   height: auto;                          
+               }
+               h4{
+                color: #fff;
+                font-family:  'Space Grotesk', sans-serif;
+            }
+            p{
+                color: #717171;
+                font-family:'Roboto Mono', monospace ;
+                word-spacing: 12px;
+            }
+           }  
+        }
+    }
+}
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .section-portfolio {
+        width: 100%;
+        height: 1300px;
+        display: flex;
+        background-color: #161616;
+        padding-top: 65px;
+    }
+}

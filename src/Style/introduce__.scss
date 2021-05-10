@@ -1,0 +1,267 @@
+.section-intro{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #161616;
+
+
+    .main{
+        width: 80%;
+        height: 550px;
+        display: flex;
+
+        .intro-text{
+            width: 60%;
+            p{
+                font-family: 'Roboto Mono', monospace;
+                color: #4BFFA5;
+            }
+
+            h1{
+                font-family: 'Space Grotesk', sans-serif;
+                font-size: 60px;
+                color: #F6F6F6;
+                text-transform: uppercase;
+            }
+
+            button{
+                width: 151px;
+                height: 46px;
+                border: 2px solid #4BFFA5;
+                background-color: transparent;
+                font-family: 'Roboto Mono', monospace;
+                color:#4BFFA5 ;
+                margin-top: 40px;
+            }
+        }
+
+        .intro-img{
+            width: 40%;
+            height: 470px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+            img{
+                max-width: 100%;
+                height: auto;               
+                width: 370px;
+                // height: 500px; 
+                box-shadow:  rgb(22, 22, 22) 15px 20px 0px -3px, rgb(75, 255, 165) 15px 20px ;             
+            }
+            
+        }
+    }
+}
+
+// ........................................
+// ........................................
+// ........................................
+// ........................................
+// ........................................
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .section-intro{
+        width: 100%;
+        height: 660px;
+        display: flex;
+        background-color: #161616;
+
+        .main{
+            width: 80%;
+            height: 550px;
+            display: flex;
+            flex-direction: column;
+            
+    
+            .intro-text{
+                width: 95%;
+                p{
+                    font-family: 'Roboto Mono', monospace;
+                    color: #4BFFA5;
+                    line-height: 1.6;
+                }
+    
+                h1{
+                    font-family: 'Space Grotesk', sans-serif;
+                    font-size: 30px;
+                    color: #F6F6F6;
+                    text-transform: uppercase;
+                }
+    
+                button{
+                    width: 151px;
+                    height: 46px;
+                    border: 2px solid #4BFFA5;
+                    background-color: transparent;
+                    font-family: 'Roboto Mono', monospace;
+                    color:#4BFFA5 ;
+                    margin-top: 40px;
+                }
+            }
+    
+            .intro-img{
+                width: 90%;
+                height: 470px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+    
+                img{
+                    // max-width: 100%;
+                    // height: auto;               
+                    width: 275px;
+                    height: 323px; 
+                    margin-top: 55px;
+                    box-shadow:  rgb(22, 22, 22) 15px 20px 0px -3px, rgb(75, 255, 165) 15px 20px ;             
+                }
+                
+            }
+        }
+        
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .section-intro{
+        width: 100%;
+        height: 750px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #161616;
+    
+    
+        .main{
+            width: 80%;
+            height: 550px;
+            display: flex;
+    
+            .intro-text{
+                width: 60%;
+                p{
+                    font-family: 'Roboto Mono', monospace;
+                    color: #4BFFA5;
+                }
+    
+                h1{
+                    font-family: 'Space Grotesk', sans-serif;
+                    font-size: 44px;
+                    color: #F6F6F6;
+                    text-transform: uppercase;
+                }
+    
+                button{
+                    width: 151px;
+                    height: 46px;
+                    border: 2px solid #4BFFA5;
+                    background-color: transparent;
+                    font-family: 'Roboto Mono', monospace;
+                    color:#4BFFA5 ;
+                    margin-top: 40px;
+                }
+            }
+    
+            .intro-img{
+                width: 40%;
+                height: 470px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+    
+                img{
+                    max-width: 100%;
+                    height: auto;               
+                    width: 370px;
+                    // height: 500px; 
+                    box-shadow:  rgb(22, 22, 22) 15px 20px 0px -3px, rgb(75, 255, 165) 15px 20px ;             
+                }
+                
+            }
+        }
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .section-intro{
+        width: 100%;
+        height: 535px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #161616;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .section-intro{
+        width: 100%;
+        height: 750px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #161616;
+    
+    
+        .main{
+            width: 80%;
+            height: 550px;
+            display: flex;
+    
+            .intro-text{
+                width: 60%;
+                p{
+                    font-family: 'Roboto Mono', monospace;
+                    color: #4BFFA5;
+                }
+    
+                h1{
+                    font-family: 'Space Grotesk', sans-serif;
+                    font-size: 60px;
+                    color: #F6F6F6;
+                    text-transform: uppercase;
+                }
+    
+                button{
+                    width: 151px;
+                    height: 46px;
+                    border: 2px solid #4BFFA5;
+                    background-color: transparent;
+                    font-family: 'Roboto Mono', monospace;
+                    color:#4BFFA5 ;
+                    margin-top: 40px;
+                }
+            }
+    
+            .intro-img{
+                width: 40%;
+                height: 470px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+    
+                img{
+                    max-width: 100%;
+                    height: auto;               
+                    width: 370px;
+                    // height: 500px; 
+                    box-shadow:  rgb(22, 22, 22) 15px 20px 0px -3px, rgb(75, 255, 165) 15px 20px ;             
+                }
+                
+            }
+        }
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
