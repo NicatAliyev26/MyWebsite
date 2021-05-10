@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Mywebsite/static/css/main.eb017ac4.chunk.css",
+    "main.js": "/Mywebsite/static/js/main.ce7988e6.chunk.js",
+    "main.js.map": "/Mywebsite/static/js/main.ce7988e6.chunk.js.map",
+    "runtime-main.js": "/Mywebsite/static/js/runtime-main.ad0565f0.js",
+    "runtime-main.js.map": "/Mywebsite/static/js/runtime-main.ad0565f0.js.map",
+    "static/js/2.3e84cfac.chunk.js": "/Mywebsite/static/js/2.3e84cfac.chunk.js",
+    "static/js/2.3e84cfac.chunk.js.map": "/Mywebsite/static/js/2.3e84cfac.chunk.js.map",
+    "index.html": "/Mywebsite/index.html",
+    "static/css/main.eb017ac4.chunk.css.map": "/Mywebsite/static/css/main.eb017ac4.chunk.css.map",
+    "static/js/2.3e84cfac.chunk.js.LICENSE.txt": "/Mywebsite/static/js/2.3e84cfac.chunk.js.LICENSE.txt",
+    "static/media/Nicat-Aliyev-CV.6b92fd62.pdf": "/Mywebsite/static/media/Nicat-Aliyev-CV.6b92fd62.pdf",
+    "static/media/Rectangle14.2c5f988c.png": "/Mywebsite/static/media/Rectangle14.2c5f988c.png",
+    "static/media/Rectangle15.eaf59171.jpg": "/Mywebsite/static/media/Rectangle15.eaf59171.jpg",
+    "static/media/Rectangle16.00d45afe.png": "/Mywebsite/static/media/Rectangle16.00d45afe.png",
+    "static/media/Rectangle17.5fd03354.png": "/Mywebsite/static/media/Rectangle17.5fd03354.png",
+    "static/media/Rectangle18.577d161b.png": "/Mywebsite/static/media/Rectangle18.577d161b.png",
+    "static/media/Rectangle9.669933ca.png": "/Mywebsite/static/media/Rectangle9.669933ca.png",
+    "static/media/profil-pic.48bc772c.jpg": "/Mywebsite/static/media/profil-pic.48bc772c.jpg",
+    "static/media/work.4d3e90ff.png": "/Mywebsite/static/media/work.4d3e90ff.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad0565f0.js",
+    "static/js/2.3e84cfac.chunk.js",
+    "static/css/main.eb017ac4.chunk.css",
+    "static/js/main.ce7988e6.chunk.js"
+  ]
+}
