@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/MyWebsite/static/css/main.2799c32a.chunk.css",
-    "main.js": "/MyWebsite/static/js/main.4c2a17ff.chunk.js",
-    "main.js.map": "/MyWebsite/static/js/main.4c2a17ff.chunk.js.map",
+    "main.css": "/MyWebsite/static/css/main.32508caa.chunk.css",
+    "main.js": "/MyWebsite/static/js/main.1bcde8e5.chunk.js",
+    "main.js.map": "/MyWebsite/static/js/main.1bcde8e5.chunk.js.map",
     "runtime-main.js": "/MyWebsite/static/js/runtime-main.38751742.js",
     "runtime-main.js.map": "/MyWebsite/static/js/runtime-main.38751742.js.map",
     "static/js/2.a6eb0668.chunk.js": "/MyWebsite/static/js/2.a6eb0668.chunk.js",
     "static/js/2.a6eb0668.chunk.js.map": "/MyWebsite/static/js/2.a6eb0668.chunk.js.map",
     "index.html": "/MyWebsite/index.html",
-    "static/css/main.2799c32a.chunk.css.map": "/MyWebsite/static/css/main.2799c32a.chunk.css.map",
+    "static/css/main.32508caa.chunk.css.map": "/MyWebsite/static/css/main.32508caa.chunk.css.map",
     "static/js/2.a6eb0668.chunk.js.LICENSE.txt": "/MyWebsite/static/js/2.a6eb0668.chunk.js.LICENSE.txt",
     "static/media/Nicat-Aliyev-CV.6b92fd62.pdf": "/MyWebsite/static/media/Nicat-Aliyev-CV.6b92fd62.pdf",
     "static/media/Perfect.29dfe80e.PNG": "/MyWebsite/static/media/Perfect.29dfe80e.PNG",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.38751742.js",
     "static/js/2.a6eb0668.chunk.js",
-    "static/css/main.2799c32a.chunk.css",
-    "static/js/main.4c2a17ff.chunk.js"
+    "static/css/main.32508caa.chunk.css",
+    "static/js/main.1bcde8e5.chunk.js"
   ]
 }
