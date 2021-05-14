@@ -1,0 +1,21 @@
+.app-cursor{
+    z-index: 1000;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #4BFFA5;
+    background-color: #4BFFA5;
+    pointer-events: none;
+    overflow: hidden;
+    position: fixed;
+    mix-blend-mode: difference;
+    animation: animate 4s infinite linear;
+    
+}
+
+
+  
+
+
+
+

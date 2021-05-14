@@ -233,10 +233,6 @@
                             background-color: #43D77E;
                             animation: 0.3s linear infinite progress-bar-stripes;
                         }
-                         @keyframes progress-bar-stripes{
-                             from {left:0px;}
-                             to {left:40px;}
-                         }
                     }
                 }
             }

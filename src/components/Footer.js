@@ -13,7 +13,7 @@ export class Footer extends Component {
         return (
             <div>
                 <div className="footer">
-                    <div className='info-1 wow fadeInLeftBig' data-wow-duration="2s" data-wow-delay="0s">
+                    <div className='info-1 wow fadeInLeftBig' data-wow-duration="1s" data-wow-delay="0s">
                         <p>Follow Me</p>
                         <div className='line'></div>
                      <div className="icons">
@@ -22,7 +22,7 @@ export class Footer extends Component {
                         <a href="https://www.facebook.com/profile.php?id=100005968631009" target="_blank" ><FaFacebookF className="social"/></a> 
                      </div>
                     </div>
-                    <div className="info-2 wow fadeInRightBig" data-wow-duration="2s" data-wow-delay="0s">
+                    <div className="info-2 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0s">
                         <p>© 2019 Nicat Aliyev. All rights reserved.</p>
                     </div>
                 </div>

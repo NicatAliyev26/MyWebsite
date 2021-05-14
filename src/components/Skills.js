@@ -12,7 +12,7 @@ export class Skills extends Component {
         return (
             <div>
                <div className="section-skills" id="skills">
-                  <div className="skills container wow fadeInRightBig" data-wow-duration="2s" data-wow-delay="0s">
+                  <div className="skills container wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0s">
                     <div className="number"><h1>03.</h1></div>
                     <div className="text">
                       <h1>Skills</h1>
@@ -33,6 +33,10 @@ export class Skills extends Component {
                                     bar={90}
                                     percentage="90%"
                        />
+                       <Progressbar title="Git"
+                                    bar={70}
+                                    percentage="70%"
+                       />
                        <Progressbar title="JavaScript"
                                     bar={60}
                                     percentage="60%"
@@ -44,7 +48,7 @@ export class Skills extends Component {
                        <Progressbar title="React.Js"
                                     bar={60}
                                     percentage="60%"
-                       />
+                       />                     
                        
                     </div>
                   </div>

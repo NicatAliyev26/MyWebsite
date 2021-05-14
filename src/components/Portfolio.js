@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 import '../Style/portfolio__.scss'
 import { BsCaretRight } from "react-icons/bs";
-import Rectangle14 from '../Image/Rectangle14.png'
-import Rectangle15 from '../Image/Rectangle15.jpg'
-import Rectangle16 from '../Image/Rectangle16.png'
-import Rectangle17 from '../Image/Rectangle17.png'
+import Rectangle14 from '../Image/sign-in.PNG'
+import Perfect from '../Image/Perfect.PNG'
+import Rectangle16 from '../Image/1.jpg'
+import Rectangle17 from '../Image/clock.png'
 import Rectangle9  from '../Image/Rectangle9.png'
 import Rectangle18  from '../Image/Rectangle18.png'
-import WOW from 'wowjs'
+import WOW from 'wowjs';
+
 
 export class Portfolio extends Component {
     componentDidMount(){
@@ -17,7 +18,7 @@ export class Portfolio extends Component {
         return (
             <div >
                 <div className="section-portfolio " id="portfolio">
-                  <div className="portfolio container wow fadeInLeftBig" data-wow-duration="2s" data-wow-delay="0s">
+                  <div className="portfolio container wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0s">
                     <div className="number"><h1>02.</h1></div>
                     <div className="text">
                         <h1>Portfolio</h1>
@@ -52,16 +53,16 @@ export class Up extends Component {
         return (
             <div>
                 <ul className="up">
-                <li><a href="#"><img src={Rectangle15} alt="" /></a>
-                                      <h4>Lorem ipsum dolor</h4>
-                                      <p>Bootstrap  React.js  </p>
+                <li><a href="https://nicataliyev26.github.io/Portfolio-Template/#" target="_blank"  ><img src={Perfect} alt="Sorry" /></a>
+                                      <h4>Perfect Portfolio</h4>
+                                      <p> Sass Bootstrap  Jquery  </p>
                                   </li>
-                <li><a href="#"><img src={Rectangle17} alt="" /></a>
-                                      <h4>Lorem ipsum dolor</h4>
-                                      <p>Bootstrap  React.js</p></li>
-                <li><a href="#"><img src={Rectangle16} alt="" /></a>
-                                      <h4>Lorem ipsum dolor</h4>
-                                      <p>Bootstrap  React.js</p>
+                <li><a href="https://nicataliyev26.github.io/Clock/" target="_blank"><img src={Rectangle17} alt="Sorry" /></a>
+                                      <h4>Clock</h4>
+                                      <p>Sass Javascript</p></li>
+                <li><a href="https://nicataliyev26.github.io/Minimalist-Website/" target="_blank"><img src={Rectangle16} alt="Sorry" /></a>
+                                      <h4>Minimalist</h4>
+                                      <p>Sass Bootstrap  React.js</p>
                 </li>
                 </ul>
             </div>
@@ -73,15 +74,15 @@ export class Down extends Component {
         return (
             <div>
                 <ul className="down">
-                    <li><a href="#"><img src={Rectangle14} alt="" /></a>
+                    <li><a href="https://nicataliyev26.github.io/Sign_in/"><img src={Rectangle14} alt="Sorry" /></a>
+                        <h4>Sign In</h4>
+                        <p> Sass React.js</p>
+                    </li>
+                    <li><a href="#"><img src={Rectangle9} alt="Sorry" /></a>
                         <h4>Lorem ipsum dolor</h4>
                         <p>Bootstrap  React.js</p>
                     </li>
-                    <li><a href="#"><img src={Rectangle9} alt="" /></a>
-                        <h4>Lorem ipsum dolor</h4>
-                        <p>Bootstrap  React.js</p>
-                    </li>
-                    <li><a href="#"><img src={Rectangle18} alt="" /></a>
+                    <li><a href="#"><img src={Rectangle18} alt="Sorry" /></a>
                         <h4>Lorem ipsum dolor</h4>
                         <p>Bootstrap  React.js</p>
                     </li>

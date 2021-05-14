@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 import '../Style/contact__.scss'
 import { BsCaretRight } from "react-icons/bs";
 import WOW from 'wowjs'
+
+
+
+
 export class Contact extends Component {
   componentDidMount(){
     new WOW.WOW().init();
@@ -10,7 +14,7 @@ export class Contact extends Component {
         return (
             <div>
                 <div className="section-contact" id="contact">
-                  <div className="contact container wow fadeInLeftBig" data-wow-duration="2s" data-wow-delay="0s">
+                  <div className="contact container wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0s">
                     <div className="number"><h1>04.</h1></div>
                     <div className="text">
                       <h1>Contact me</h1>
@@ -30,7 +34,7 @@ export class Contact extends Component {
                                <input type="email" className='e-mail'  placeholder='Email adress'/>
                                <input type="text" className='message' placeholder='Message...'/>
                            </div>
-                           <button>Submit</button>
+                           <button className="btn btn--1">Submit</button>
                         </form>                       
                     </div>
                   </div>
