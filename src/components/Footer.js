@@ -19,7 +19,7 @@ export class Footer extends Component {
                      <div className="icons">
                         <a href="https://github.com/NicatAliyev26" target="_blank"><FiGithub className="social"/></a> 
                         <a href="https://www.linkedin.com/in/nicat-aliyev-ba0b91185/" target="_blank" ><FaLinkedinIn className="social"/></a> 
-                        <a href="https://www.facebook.com/profile.php?id=100005968631009" target="_blank" ><FaFacebookF className="social"/></a> 
+                        <a href="https://www.facebook.com/nicattaliyevv/" target="_blank" ><FaFacebookF className="social"/></a> 
                      </div>
                     </div>
                     <div className="info-2 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0s">
