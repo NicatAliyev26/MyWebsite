@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MyWebsite/static/css/main.88246992.chunk.css",
-    "main.js": "/MyWebsite/static/js/main.1bcde8e5.chunk.js",
-    "main.js.map": "/MyWebsite/static/js/main.1bcde8e5.chunk.js.map",
+    "main.js": "/MyWebsite/static/js/main.ca2fc7f0.chunk.js",
+    "main.js.map": "/MyWebsite/static/js/main.ca2fc7f0.chunk.js.map",
     "runtime-main.js": "/MyWebsite/static/js/runtime-main.38751742.js",
     "runtime-main.js.map": "/MyWebsite/static/js/runtime-main.38751742.js.map",
     "static/js/2.a6eb0668.chunk.js": "/MyWebsite/static/js/2.a6eb0668.chunk.js",
@@ -17,6 +17,7 @@
     "static/media/animation.18ab9267.gif": "/MyWebsite/static/media/animation.18ab9267.gif",
     "static/media/clock.6d5e1cee.png": "/MyWebsite/static/media/clock.6d5e1cee.png",
     "static/media/coding.e24bf3cb.jpg": "/MyWebsite/static/media/coding.e24bf3cb.jpg",
+    "static/media/gunaybankpro.0b0f7985.jpg": "/MyWebsite/static/media/gunaybankpro.0b0f7985.jpg",
     "static/media/profil-pic.48bc772c.jpg": "/MyWebsite/static/media/profil-pic.48bc772c.jpg",
     "static/media/sign-in.b7335a3c.PNG": "/MyWebsite/static/media/sign-in.b7335a3c.PNG"
   },
@@ -24,6 +25,6 @@
     "static/js/runtime-main.38751742.js",
     "static/js/2.a6eb0668.chunk.js",
     "static/css/main.88246992.chunk.css",
-    "static/js/main.1bcde8e5.chunk.js"
+    "static/js/main.ca2fc7f0.chunk.js"
   ]
 }
