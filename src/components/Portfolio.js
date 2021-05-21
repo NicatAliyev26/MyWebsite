@@ -7,6 +7,7 @@ import Rectangle16 from '../Image/1.jpg'
 import Rectangle17 from '../Image/clock.png'
 import Rectangle9  from '../Image/Rectangle9.png'
 import Rectangle18  from '../Image/Rectangle18.png'
+import Rectangle19  from '../Image/gunaybankpro.jpg'
 import WOW from 'wowjs';
 
 
@@ -74,15 +75,15 @@ export class Down extends Component {
         return (
             <div>
                 <ul className="down">
-                    <li><a href="https://nicataliyev26.github.io/Sign_in/"><img src={Rectangle14} alt="Sorry" /></a>
+                    <li><a href="https://nicataliyev26.github.io/Sign_in/" target="_blank"><img src={Rectangle14} alt="Sorry" /></a>
                         <h4>Sign In</h4>
                         <p> Sass React.js</p>
                     </li>
-                    <li><a href="#"><img src={Rectangle9} alt="Sorry" /></a>
-                        <h4>Lorem ipsum dolor</h4>
+                    <li><a href="https://nicataliyev26.github.io/GunayBank/" target="_blank"><img src={Rectangle19} alt="Sorry" /></a>
+                        <h4>Günay Bank</h4>
                         <p>Bootstrap  React.js</p>
                     </li>
-                    <li><a href="#"><img src={Rectangle18} alt="Sorry" /></a>
+                    <li><a href="#" target="_blank"><img src={Rectangle18} alt="Sorry" /></a>
                         <h4>Lorem ipsum dolor</h4>
                         <p>Bootstrap  React.js</p>
                     </li>
