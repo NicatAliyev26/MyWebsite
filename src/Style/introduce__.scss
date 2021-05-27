@@ -1,4 +1,4 @@
-.section-intro{
+.section-intro {
     width: 100%;
     height: 750px;
     display: flex;
@@ -7,25 +7,27 @@
     background-color: #161616;
 
 
-    .main{
+    .main {
         width: 80%;
         height: 550px;
         display: flex;
 
-        .intro-text{
+        .intro-text {
             width: 60%;
-            p{
+
+            p {
                 font-family: 'Roboto Mono', monospace;
                 color: #4BFFA5;
             }
 
-            h1{
+            h1 {
                 font-family: 'Space Grotesk', sans-serif;
                 font-size: 60px;
                 color: #F6F6F6;
                 text-transform: uppercase;
             }
-            .btn{
+
+            .btn {
                 position: relative;
                 display: block;
                 overflow: hidden;
@@ -34,13 +36,13 @@
                 border: 2px solid #4BFFA5;
                 background-color: transparent;
                 font-family: 'Roboto Mono', monospace;
-                color:#4BFFA5 ;
+                color: #4BFFA5;
                 margin-top: 40px;
                 cursor: none;
                 transition: all 500ms ease;
                 z-index: 0;
 
-                &::before{
+                &::before {
                     content: "";
                     position: absolute;
                     left: 0;
@@ -53,47 +55,50 @@
                 }
 
 
-                &--1::before{
+                &--1::before {
                     width: 0%;
                     height: 100%;
                 }
-                &--1:hover{
+
+                &--1:hover {
                     color: rgb(10, 10, 10);
-                     &::before{
-                         width: 100%;
-                     }
+
+                    &::before {
+                        width: 100%;
+                    }
                 }
-            
+
             }
-            
+
 
 
 
         }
 
-        .intro-img{
+        .intro-img {
             width: 40%;
             height: 470px;
             display: flex;
             justify-content: center;
             align-items: center;
-            
 
-            img{
+
+            img {
                 max-width: 100%;
-                height: auto;               
+                height: auto;
                 width: 370px;
                 // height: 500px; 
-                box-shadow:  rgb(22, 22, 22) 15px 20px 0px -3px, rgb(75, 255, 165) 15px 20px ;           
-                transition-duration: 1s ;
-                &:hover{
+                box-shadow: rgb(22, 22, 22) 15px 20px 0px -3px, rgb(75, 255, 165) 15px 20px;
+                transition-duration: 1s;
+
+                &:hover {
                     transform: scale(1.03);
                     transition: 1s;
                 }
             }
 
-            
-            
+
+
         }
     }
 }
@@ -106,126 +111,128 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .section-intro{
+    .section-intro {
         width: 100%;
         height: 660px;
         display: flex;
         background-color: #161616;
 
-        .main{
+        .main {
             width: 80%;
             height: 550px;
             display: flex;
             flex-direction: column;
-            
-    
-            .intro-text{
+
+
+            .intro-text {
                 width: 95%;
-                p{
+
+                p {
                     font-family: 'Roboto Mono', monospace;
                     color: #4BFFA5;
                     line-height: 1.6;
                 }
-    
-                h1{
+
+                h1 {
                     font-family: 'Space Grotesk', sans-serif;
                     font-size: 30px;
                     color: #F6F6F6;
                     text-transform: uppercase;
                 }
-    
-                button{
+
+                button {
                     width: 151px;
                     height: 46px;
                     border: 2px solid #4BFFA5;
                     background-color: transparent;
                     font-family: 'Roboto Mono', monospace;
-                    color:#4BFFA5 ;
+                    color: #4BFFA5;
                     margin-top: 40px;
                 }
-                
+
             }
-    
-            .intro-img{
+
+            .intro-img {
                 width: 90%;
                 height: 470px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                
-    
-                img{
+
+
+                img {
                     // max-width: 100%;
                     // height: auto;               
                     width: 275px;
-                    height: 372px; 
+                    height: 372px;
                     margin-top: 55px;
-                    box-shadow:  rgb(22, 22, 22) 15px 20px 0px -3px, rgb(75, 255, 165) 15px 20px ;             
+                    box-shadow: rgb(22, 22, 22) 15px 20px 0px -3px, rgb(75, 255, 165) 15px 20px;
                 }
-                
+
             }
         }
-        
+
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .section-intro{
+    .section-intro {
         width: 100%;
         height: 750px;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: #161616;
-    
-    
-        .main{
+
+
+        .main {
             width: 80%;
             height: 550px;
             display: flex;
-    
-            .intro-text{
+
+            .intro-text {
                 width: 60%;
-                p{
+
+                p {
                     font-family: 'Roboto Mono', monospace;
                     color: #4BFFA5;
                 }
-    
-                h1{
+
+                h1 {
                     font-family: 'Space Grotesk', sans-serif;
                     font-size: 44px;
                     color: #F6F6F6;
                     text-transform: uppercase;
                 }
-    
-                button{
+
+                button {
                     width: 151px;
                     height: 46px;
                     border: 2px solid #4BFFA5;
                     background-color: transparent;
                     font-family: 'Roboto Mono', monospace;
-                    color:#4BFFA5 ;
+                    color: #4BFFA5;
                     margin-top: 40px;
                 }
             }
-    
-            .intro-img{
+
+            .intro-img {
                 width: 40%;
                 height: 470px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                
-    
-                img{
+
+
+                img {
                     max-width: 100%;
-                    height: auto;               
+                    height: auto;
                     width: 370px;
                     // height: 500px; 
-                    box-shadow:  rgb(22, 22, 22) 15px 20px 0px -3px, rgb(75, 255, 165) 15px 20px ;             
+                    box-shadow: rgb(22, 22, 22) 15px 20px 0px -3px, rgb(75, 255, 165) 15px 20px;
                 }
-                
+
             }
         }
     }
@@ -233,7 +240,7 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .section-intro{
+    .section-intro {
         width: 100%;
         height: 535px;
         display: flex;
@@ -245,61 +252,62 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .section-intro{
+    .section-intro {
         width: 100%;
         height: 750px;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: #161616;
-    
-    
-        .main{
+
+
+        .main {
             width: 80%;
             height: 550px;
             display: flex;
-    
-            .intro-text{
+
+            .intro-text {
                 width: 60%;
-                p{
+
+                p {
                     font-family: 'Roboto Mono', monospace;
                     color: #4BFFA5;
                 }
-    
-                h1{
+
+                h1 {
                     font-family: 'Space Grotesk', sans-serif;
                     font-size: 60px;
                     color: #F6F6F6;
                     text-transform: uppercase;
                 }
-    
-                button{
+
+                button {
                     width: 151px;
                     height: 46px;
                     border: 2px solid #4BFFA5;
                     background-color: transparent;
                     font-family: 'Roboto Mono', monospace;
-                    color:#4BFFA5 ;
+                    color: #4BFFA5;
                     margin-top: 40px;
                 }
             }
-    
-            .intro-img{
+
+            .intro-img {
                 width: 40%;
                 height: 470px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                
-    
-                img{
+
+
+                img {
                     max-width: 100%;
-                    height: auto;               
+                    height: auto;
                     width: 370px;
                     // height: 500px; 
-                    box-shadow:  rgb(22, 22, 22) 15px 20px 0px -3px, rgb(75, 255, 165) 15px 20px ;             
+                    box-shadow: rgb(22, 22, 22) 15px 20px 0px -3px, rgb(75, 255, 165) 15px 20px;
                 }
-                
+
             }
         }
     }

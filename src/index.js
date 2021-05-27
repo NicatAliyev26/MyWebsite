@@ -1,4 +1,4 @@
-import React , {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import Navbar from './components/Navbar'
 import Introduce from './components/Introduce'
@@ -21,7 +21,7 @@ const root = document.getElementById('root')
 
 
 export class App extends React.Component {
-    state = { loading: true };
+  state = { loading: true };
   sleep = milliseconds => {
     return new Promise(resolve => setTimeout(resolve, milliseconds));
   };
@@ -46,31 +46,31 @@ export class App extends React.Component {
       });
   };
   componentDidMount() {
-    this.wait(2000);
+    this.wait(3000);
     // this.fetchGitHub();
   }
 
   render() {
     if (this.state.loading) return <Loader />;
-        return (
-            <div className="main-page">
-                <Cursor/>
-                <Navbar/>
-                <Introduce/>
-                <About/>
-                <Portfolio/>
-                <Skills/>
-                <Contact/>
-                <Footer/>
-            </div>
-        )
-    }
+    return (
+      <div className="main-page">
+        <Cursor />
+        <Navbar />
+        <Introduce />
+        <About />
+        <Portfolio />
+        <Skills />
+        <Contact />
+        <Footer />
+      </div>
+    )
+  }
 }
 
 export default App
 
 
 
-ReactDOM.render(<App/>,root)
+ReactDOM.render(<App />, root)
 
 

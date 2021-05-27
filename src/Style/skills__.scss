@@ -1,4 +1,4 @@
-.section-skills{
+.section-skills {
     width: 100%;
     height: 700px;
     display: flex;
@@ -7,63 +7,67 @@
 
 
 
-    .skills{
+    .skills {
         display: flex;
         justify-content: flex-start;
 
 
-        .number{
-            h1{
+        .number {
+            h1 {
                 font-family: 'Roboto Mono', monospace;
-                color:#4BFFA5 ;
+                color: #4BFFA5;
             }
         }
-        .text{
+
+        .text {
             width: 100%;
             margin-left: 110px;
-            
-            
-            
-            h1{
+
+
+
+            h1 {
                 color: #fff;
                 font-family: 'Roboto Mono', monospace;
             }
 
-            span{
+            span {
                 display: flex;
                 justify-content: flex-start;
                 margin-bottom: 30px;
 
 
-                .icon{
+                .icon {
                     width: 1rem;
                     color: #4BFFA5;
                     margin-top: 60px;
                 }
-                p{
+
+                p {
                     width: 71%;
                     margin-top: 55px;
                     margin-left: 17px;
-                    color: #989898;                   
+                    color: #989898;
                     font-family: 'Space Grotesk', sans-serif;
                     line-height: 1;
-                    
-                    .main-text{
-                       color: #fff;
-                       font-size: 15px;
-                       font-family: 'Space Grotesk', sans-serif;
-                       line-height: 1.6;
+
+                    .main-text {
+                        color: #fff;
+                        font-size: 15px;
+                        font-family: 'Space Grotesk', sans-serif;
+                        line-height: 1.6;
                     }
-                    .sentence{
-                       width: 139%;
-                    }                          
+
+                    .sentence {
+                        width: 139%;
+                    }
                 }
             }
-            .bar{
+
+            .bar {
                 display: flex;
                 margin-top: 20px;
 
-                .barname{
+                .barname {
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -80,7 +84,7 @@
                     color: #fff;
                 }
 
-                .percentage{
+                .percentage {
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -96,12 +100,13 @@
                     font-size: 13px;
                     color: #676767;
                 }
-                .progress{
+
+                .progress {
                     width: 65%;
                     height: 35px;
                     border-radius: 0rem;
 
-                    .progress-bar{
+                    .progress-bar {
                         background-color: #43D77E;
                         animation: 0.3s linear infinite progress-bar-stripes;
                     }
@@ -124,74 +129,78 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .section-skills{
+    .section-skills {
         width: 100%;
         height: 800px;
         display: flex;
         background-color: #161616;
-    
-    
-    
-    
-        .skills{
+
+
+
+
+        .skills {
             display: flex;
             justify-content: flex-start;
-    
-    
-            .number{
-                h1{
+
+
+            .number {
+                h1 {
                     font-size: 21px;
                     font-family: 'Roboto Mono', monospace;
-                    color:#4BFFA5 ;
+                    color: #4BFFA5;
                 }
             }
-            .text{
+
+            .text {
                 width: 100%;
                 margin-left: 30px;
-                
-                
-                
-                h1{
+
+
+
+                h1 {
                     font-size: 21px;
                     color: #fff;
                     font-family: 'Roboto Mono', monospace;
                 }
-    
-                span{
+
+                span {
                     display: flex;
                     justify-content: flex-start;
                     margin-bottom: 30px;
-    
-    
-                    .icon{
+
+
+                    .icon {
                         width: 1rem;
                         color: #4BFFA5;
                         margin-top: 60px;
                     }
-                    p{
+
+                    p {
                         width: 71%;
                         margin-top: 55px;
                         margin-left: 17px;
-                        color: #989898;                   
+                        color: #989898;
                         font-family: 'Space Grotesk', sans-serif;
                         line-height: 1;
-                        
-                        .main-text{
-                           color: #fff;
-                           font-size: 14px;
-                           font-family: 'Space Grotesk', sans-serif;
-                           line-height: 1.6;
+
+                        .main-text {
+                            color: #fff;
+                            font-size: 14px;
+                            font-family: 'Space Grotesk', sans-serif;
+                            line-height: 1.6;
                         }
-                        .sentence{
-                           width: 139%;
-                        }                          
+
+                        .sentence {
+                            width: 139%;
+                        }
                     }
                 }
-                .bar{
+
+                .bar {
                     display: flex;
                     margin-top: 20px;
-    
-                    .barname{
+
+                    .barname {
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -202,13 +211,13 @@
                         line-height: 0;
                         font-size: .75rem;
                         background-color: #237747;
-    
+
                         font-family: 'Space Grotesk', sans-serif;
                         font-size: 14px;
                         color: #fff;
                     }
-    
-                    .percentage{
+
+                    .percentage {
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -219,17 +228,18 @@
                         line-height: 0;
                         font-size: .75rem;
                         background-color: #e9ecef;
-    
+
                         font-family: 'Space Grotesk', sans-serif;
                         font-size: 13px;
                         color: #676767;
                     }
-                    .progress{
+
+                    .progress {
                         width: 65%;
                         height: 35px;
                         border-radius: 0rem;
-    
-                        .progress-bar{
+
+                        .progress-bar {
                             background-color: #43D77E;
                             animation: 0.3s linear infinite progress-bar-stripes;
                         }
@@ -242,72 +252,76 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .section-skills{
+    .section-skills {
         width: 100%;
         height: 700px;
         display: flex;
         background-color: #161616;
-    
-    
-    
-    
-        .skills{
+
+
+
+
+        .skills {
             display: flex;
             justify-content: flex-start;
-    
-    
-            .number{
-                h1{
+
+
+            .number {
+                h1 {
                     font-family: 'Roboto Mono', monospace;
-                    color:#4BFFA5 ;
+                    color: #4BFFA5;
                 }
             }
-            .text{
+
+            .text {
                 width: 100%;
                 margin-left: 20px;
-                
-                
-                
-                h1{
+
+
+
+                h1 {
                     color: #fff;
                     font-family: 'Roboto Mono', monospace;
                 }
-    
-                span{
+
+                span {
                     display: flex;
                     justify-content: flex-start;
                     margin-bottom: 30px;
-    
-    
-                    .icon{
+
+
+                    .icon {
                         width: 1rem;
                         color: #4BFFA5;
                         margin-top: 60px;
                     }
-                    p{
+
+                    p {
                         width: 71%;
                         margin-top: 55px;
                         margin-left: 17px;
-                        color: #989898;                   
+                        color: #989898;
                         font-family: 'Space Grotesk', sans-serif;
                         line-height: 1;
-                        
-                        .main-text{
-                           color: #fff;
-                           font-size: 15px;
-                           font-family: 'Space Grotesk', sans-serif;
-                           line-height: 1.6;
+
+                        .main-text {
+                            color: #fff;
+                            font-size: 15px;
+                            font-family: 'Space Grotesk', sans-serif;
+                            line-height: 1.6;
                         }
-                        .sentence{
-                           width: 139%;
-                        }                          
+
+                        .sentence {
+                            width: 139%;
+                        }
                     }
                 }
-                .bar{
+
+                .bar {
                     display: flex;
                     margin-top: 20px;
-    
-                    .barname{
+
+                    .barname {
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -318,13 +332,13 @@
                         line-height: 0;
                         font-size: .75rem;
                         background-color: #237747;
-    
+
                         font-family: 'Space Grotesk', sans-serif;
                         font-size: 14px;
                         color: #fff;
                     }
-    
-                    .percentage{
+
+                    .percentage {
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -335,17 +349,18 @@
                         line-height: 0;
                         font-size: .75rem;
                         background-color: #e9ecef;
-    
+
                         font-family: 'Space Grotesk', sans-serif;
                         font-size: 13px;
                         color: #676767;
                     }
-                    .progress{
+
+                    .progress {
                         width: 65%;
                         height: 35px;
                         border-radius: 0rem;
-    
-                        .progress-bar{
+
+                        .progress-bar {
                             background-color: #43D77E;
                             animation: 0.3s linear infinite progress-bar-stripes;
                         }
@@ -358,72 +373,76 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .section-skills{
+    .section-skills {
         width: 100%;
         height: 700px;
         display: flex;
         background-color: #161616;
-    
-    
-    
-    
-        .skills{
+
+
+
+
+        .skills {
             display: flex;
             justify-content: flex-start;
-    
-    
-            .number{
-                h1{
+
+
+            .number {
+                h1 {
                     font-family: 'Roboto Mono', monospace;
-                    color:#4BFFA5 ;
+                    color: #4BFFA5;
                 }
             }
-            .text{
+
+            .text {
                 width: 100%;
                 margin-left: 20px;
-                
-                
-                
-                h1{
+
+
+
+                h1 {
                     color: #fff;
                     font-family: 'Roboto Mono', monospace;
                 }
-    
-                span{
+
+                span {
                     display: flex;
                     justify-content: flex-start;
                     margin-bottom: 30px;
-    
-    
-                    .icon{
+
+
+                    .icon {
                         width: 1rem;
                         color: #4BFFA5;
                         margin-top: 60px;
                     }
-                    p{
+
+                    p {
                         width: 71%;
                         margin-top: 55px;
                         margin-left: 17px;
-                        color: #989898;                   
+                        color: #989898;
                         font-family: 'Space Grotesk', sans-serif;
                         line-height: 1;
-                        
-                        .main-text{
-                           color: #fff;
-                           font-size: 15px;
-                           font-family: 'Space Grotesk', sans-serif;
-                           line-height: 1.6;
+
+                        .main-text {
+                            color: #fff;
+                            font-size: 15px;
+                            font-family: 'Space Grotesk', sans-serif;
+                            line-height: 1.6;
                         }
-                        .sentence{
-                           width: 139%;
-                        }                          
+
+                        .sentence {
+                            width: 139%;
+                        }
                     }
                 }
-                .bar{
+
+                .bar {
                     display: flex;
                     margin-top: 20px;
-    
-                    .barname{
+
+                    .barname {
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -434,13 +453,13 @@
                         line-height: 0;
                         font-size: .75rem;
                         background-color: #237747;
-    
+
                         font-family: 'Space Grotesk', sans-serif;
                         font-size: 14px;
                         color: #fff;
                     }
-    
-                    .percentage{
+
+                    .percentage {
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -451,17 +470,18 @@
                         line-height: 0;
                         font-size: .75rem;
                         background-color: #e9ecef;
-    
+
                         font-family: 'Space Grotesk', sans-serif;
                         font-size: 13px;
                         color: #676767;
                     }
-                    .progress{
+
+                    .progress {
                         width: 65%;
                         height: 35px;
                         border-radius: 0rem;
-    
-                        .progress-bar{
+
+                        .progress-bar {
                             background-color: #43D77E;
                             animation: 0.3s linear infinite progress-bar-stripes;
                         }
@@ -474,72 +494,76 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .section-skills{
+    .section-skills {
         width: 100%;
         height: 700px;
         display: flex;
         background-color: #161616;
-    
-    
-    
-    
-        .skills{
+
+
+
+
+        .skills {
             display: flex;
             justify-content: flex-start;
-    
-    
-            .number{
-                h1{
+
+
+            .number {
+                h1 {
                     font-family: 'Roboto Mono', monospace;
-                    color:#4BFFA5 ;
+                    color: #4BFFA5;
                 }
             }
-            .text{
+
+            .text {
                 width: 100%;
                 margin-left: 110px;
-                
-                
-                
-                h1{
+
+
+
+                h1 {
                     color: #fff;
                     font-family: 'Roboto Mono', monospace;
                 }
-    
-                span{
+
+                span {
                     display: flex;
                     justify-content: flex-start;
                     margin-bottom: 30px;
-    
-    
-                    .icon{
+
+
+                    .icon {
                         width: 1rem;
                         color: #4BFFA5;
                         margin-top: 60px;
                     }
-                    p{
+
+                    p {
                         width: 71%;
                         margin-top: 55px;
                         margin-left: 17px;
-                        color: #989898;                   
+                        color: #989898;
                         font-family: 'Space Grotesk', sans-serif;
                         line-height: 1;
-                        
-                        .main-text{
-                           color: #fff;
-                           font-size: 15px;
-                           font-family: 'Space Grotesk', sans-serif;
-                           line-height: 1.6;
+
+                        .main-text {
+                            color: #fff;
+                            font-size: 15px;
+                            font-family: 'Space Grotesk', sans-serif;
+                            line-height: 1.6;
                         }
-                        .sentence{
-                           width: 139%;
-                        }                          
+
+                        .sentence {
+                            width: 139%;
+                        }
                     }
                 }
-                .bar{
+
+                .bar {
                     display: flex;
                     margin-top: 20px;
-    
-                    .barname{
+
+                    .barname {
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -550,13 +574,13 @@
                         line-height: 0;
                         font-size: .75rem;
                         background-color: #237747;
-    
+
                         font-family: 'Space Grotesk', sans-serif;
                         font-size: 14px;
                         color: #fff;
                     }
-    
-                    .percentage{
+
+                    .percentage {
                         display: flex;
                         justify-content: center;
                         align-items: center;
@@ -567,17 +591,18 @@
                         line-height: 0;
                         font-size: .75rem;
                         background-color: #e9ecef;
-    
+
                         font-family: 'Space Grotesk', sans-serif;
                         font-size: 13px;
                         color: #676767;
                     }
-                    .progress{
+
+                    .progress {
                         width: 65%;
                         height: 35px;
                         border-radius: 0rem;
-    
-                        .progress-bar{
+
+                        .progress-bar {
                             background-color: #43D77E;
                             animation: 0.3s linear infinite progress-bar-stripes;
                         }
@@ -590,5 +615,3 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
-
-

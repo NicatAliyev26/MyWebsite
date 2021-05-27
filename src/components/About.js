@@ -26,10 +26,13 @@ export class About extends Component {
                         <h1>About me</h1>
                         <span>
                         <BsCaretRight className="icon"/>
-                        <p> Hello! My name is Nicat Aliyev. I am a creative frontend developer, writing code and moving pixels in the www. <br /><br />
+                        <p> Hello! My name is Nicat Aliyev. 
+                            I am a creative frontend developer, 
+                            writing code and moving pixels in the www. <br /><br />
 
-                           I spent years developing design systems for clients along with other creative projects.
-                           My goal as a developer is to write less code more efficiently, combining the power of reusable components with modern frameworks. Additionally, I always strive to include new and innovative interactions to enhance the user experience.
+                           My goal as a developer is to write less code more efficiently, 
+                           combining the power of reusable components with modern frameworks. 
+                           Additionally, I always strive to include new and innovative interactions to enhance the user experience.
                            </p>           
                         </span>                                
                        <a href={Resume} download="My_CV.pdf" ><button className="btn btn--1"> Resume</button></a>  

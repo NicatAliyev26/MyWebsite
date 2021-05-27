@@ -1,4 +1,4 @@
-.section-about{
+.section-about {
     width: 100%;
     height: 700px;
     display: flex;
@@ -6,52 +6,55 @@
 
 
 
-    .about{
+    .about {
         display: flex;
         justify-content: space-around;
 
-        .number{
-            h1{
+        .number {
+            h1 {
                 font-family: 'Roboto Mono', monospace;
-                color:#4BFFA5 ;
+                color: #4BFFA5;
             }
         }
-        .text{
+
+        .text {
             width: 45%;
             margin-left: 70px;
-            
-            h1{
+
+            h1 {
                 color: #fff;
                 font-family: 'Roboto Mono', monospace;
             }
 
-            span{
+            span {
                 display: flex;
                 width: 490px;
                 justify-content: flex-start;
-                .icon{
+
+                .icon {
                     width: 1rem;
                     color: #4BFFA5;
                     margin-top: 60px;
                 }
-                p{
+
+                p {
                     width: 71%;
                     margin-top: 55px;
                     margin-left: 17px;
-                    color: #989898;                   
+                    color: #989898;
                     font-family: 'Space Grotesk', sans-serif;
-                    line-height: 1.6;                             
+                    line-height: 1.6;
                 }
             }
-            
-            .btn{
+
+            .btn {
                 position: relative;
                 display: block;
                 overflow: hidden;
                 width: 97px;
                 height: 46px;
                 border: 2px solid #4BFFA5;
-                font-family:'Roboto Mono', monospace ;
+                font-family: 'Roboto Mono', monospace;
                 background-color: transparent;
                 color: #4BFFA5;
                 margin-top: 70px;
@@ -59,7 +62,7 @@
                 transition: all 500ms ease;
                 z-index: 0;
 
-                &::before{
+                &::before {
                     content: "";
                     position: absolute;
                     left: 0;
@@ -72,27 +75,30 @@
                 }
 
 
-                &--1::before{
+                &--1::before {
                     width: 0%;
                     height: 100%;
                 }
-                &--1:hover{
+
+                &--1:hover {
                     color: rgb(10, 10, 10);
-                     &::before{
-                         width: 100%;
-                     }
+
+                    &::before {
+                        width: 100%;
+                    }
                 }
             }
         }
 
-        .picture{
+        .picture {
             width: 400px;
             height: 400px;
             display: flex;
             justify-content: center;
             align-items: center;
             margin-top: 70px;
-            img{
+
+            img {
                 max-width: 100%;
                 height: auto;
             }
@@ -102,7 +108,7 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .section-about{
+    .section-about {
         width: 100%;
         height: 1460px;
         display: flex;
@@ -112,72 +118,76 @@
         flex-wrap: wrap;
         flex-direction: column;
         padding-bottom: 50px;
-    
-    
-    
-        .about{
+
+
+
+        .about {
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-    
-            .number{
-                h1{
+
+            .number {
+                h1 {
                     font-size: 21px;
                     font-family: 'Roboto Mono', monospace;
-                    color:#4BFFA5 ;
+                    color: #4BFFA5;
                 }
             }
-            .text{
+
+            .text {
                 width: 55%;
                 margin-left: 70px;
                 margin-top: -26px;
-                
-                h1{
+
+                h1 {
                     font-size: 21px;
                     color: #fff;
                     font-family: 'Roboto Mono', monospace;
                 }
-    
-                span{
+
+                span {
                     display: flex;
                     width: 490px;
                     justify-content: flex-start;
-                    .icon{
+
+                    .icon {
                         width: 1rem;
                         color: #4BFFA5;
                         margin-top: 60px;
                     }
-                    p{
+
+                    p {
                         width: 38%;
                         margin-top: 55px;
                         margin-left: 17px;
-                        color: #989898;                   
+                        color: #989898;
                         font-family: 'Space Grotesk', sans-serif;
-                        line-height: 1.6;                             
+                        line-height: 1.6;
                     }
                 }
-                
-                button{
+
+                button {
                     width: 97px;
                     height: 46px;
                     border: 2px solid #4BFFA5;
-                    font-family:'Roboto Mono', monospace ;
+                    font-family: 'Roboto Mono', monospace;
                     background-color: transparent;
                     color: #4BFFA5;
                     margin-top: 70px;
                 }
             }
-    
-            .picture{
+
+            .picture {
                 width: 400px;
                 height: 400px;
                 display: flex;
                 justify-content: flex-start;
                 align-items: center;
                 margin-top: 70px;
-                img{
+
+                img {
                     width: 306px;
-                    height: 361px; 
+                    height: 361px;
                 }
             }
         }
@@ -186,74 +196,78 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 601px) {
-    .section-about{
+    .section-about {
         width: 100%;
         height: 994px;
         display: flex;
         background-color: #161616;
-    
-    
-    
-        .about{
+
+
+
+        .about {
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-    
-            .number{
-                h1{
+
+            .number {
+                h1 {
                     position: relative;
                     top: 44px;
                     font-family: 'Roboto Mono', monospace;
-                    color:#4BFFA5 ;
+                    color: #4BFFA5;
                 }
             }
-            .text{
+
+            .text {
                 width: 45%;
                 margin-left: 70px;
-                
-                h1{
+
+                h1 {
                     color: #fff;
                     font-family: 'Roboto Mono', monospace;
                 }
-    
-                span{
+
+                span {
                     display: flex;
                     width: 490px;
                     justify-content: flex-start;
-                    .icon{
+
+                    .icon {
                         width: 1rem;
                         color: #4BFFA5;
                         margin-top: 60px;
                     }
-                    p{
+
+                    p {
                         width: 71%;
                         margin-top: 55px;
                         margin-left: 17px;
-                        color: #989898;                   
+                        color: #989898;
                         font-family: 'Space Grotesk', sans-serif;
-                        line-height: 1.6;                             
+                        line-height: 1.6;
                     }
                 }
-                
-                button{
+
+                button {
                     width: 97px;
                     height: 46px;
                     border: 2px solid #4BFFA5;
-                    font-family:'Roboto Mono', monospace ;
+                    font-family: 'Roboto Mono', monospace;
                     background-color: transparent;
                     color: #4BFFA5;
                     margin-top: 70px;
                 }
             }
-    
-            .picture{
+
+            .picture {
                 width: 400px;
                 height: 400px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 margin-top: 70px;
-                img{
+
+                img {
                     max-width: 100%;
                     height: auto;
                 }
@@ -264,74 +278,78 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .section-about{
+    .section-about {
         width: 100%;
         height: 1034px;
         display: flex;
         background-color: #161616;
-    
-    
-    
-        .about{
+
+
+
+        .about {
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-    
-            .number{
-                h1{
+
+            .number {
+                h1 {
                     position: relative;
                     top: 57px;
                     font-family: 'Roboto Mono', monospace;
-                    color:#4BFFA5 ;
+                    color: #4BFFA5;
                 }
             }
-            .text{
+
+            .text {
                 width: 45%;
                 margin-left: 70px;
-                
-                h1{
+
+                h1 {
                     color: #fff;
                     font-family: 'Roboto Mono', monospace;
                 }
-    
-                span{
+
+                span {
                     display: flex;
                     width: 490px;
                     justify-content: flex-start;
-                    .icon{
+
+                    .icon {
                         width: 1rem;
                         color: #4BFFA5;
                         margin-top: 60px;
                     }
-                    p{
+
+                    p {
                         width: 71%;
                         margin-top: 55px;
                         margin-left: 17px;
-                        color: #989898;                   
+                        color: #989898;
                         font-family: 'Space Grotesk', sans-serif;
-                        line-height: 1.6;                             
+                        line-height: 1.6;
                     }
                 }
-                
-                button{
+
+                button {
                     width: 97px;
                     height: 46px;
                     border: 2px solid #4BFFA5;
-                    font-family:'Roboto Mono', monospace ;
+                    font-family: 'Roboto Mono', monospace;
                     background-color: transparent;
                     color: #4BFFA5;
                     margin-top: 70px;
                 }
             }
-    
-            .picture{
+
+            .picture {
                 width: 400px;
                 height: 400px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 margin-top: 70px;
-                img{
+
+                img {
                     max-width: 100%;
                     height: auto;
                 }
@@ -342,25 +360,25 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .section-about{
+    .section-about {
         width: 100%;
         height: 620px;
         display: flex;
         background-color: #161616;
-    
-    
-    
-        .about{
+
+
+
+        .about {
             display: flex;
             flex-direction: row;
             justify-content: space-around;
 
-            .number{
-                h1{
+            .number {
+                h1 {
                     position: relative;
                     top: 0px;
                     font-family: 'Roboto Mono', monospace;
-                    color:#4BFFA5 ;
+                    color: #4BFFA5;
                 }
             }
         }
@@ -369,7 +387,7 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .section-about{
+    .section-about {
         width: 100%;
         height: 670px;
         display: flex;
