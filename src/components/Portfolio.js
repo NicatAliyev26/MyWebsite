@@ -8,6 +8,7 @@ import Rectangle17 from '../Image/clock.png'
 import Rectangle9 from '../Image/Rectangle9.png'
 import Rectangle18 from '../Image/Rectangle18.png'
 import Rectangle19 from '../Image/gunaybankpro.jpg'
+import Rectangle20 from '../Image/taxi.PNG'
 import WOW from 'wowjs';
 
 
@@ -54,13 +55,14 @@ export class Up extends Component {
         return (
             <div>
                 <ul className="up">
-                    <li><a href="https://nicataliyev26.github.io/Portfolio-Template/#" target="_blank"  ><img src={Perfect} alt="Sorry" /></a>
-                        <h4>Perfect Portfolio</h4>
-                        <p> Sass Bootstrap  Jquery  </p>
+                    <li><a href="https://nicataliyev26.github.io/Taxi-website/" target="_blank"><img src={Rectangle20} alt="Sorry" /></a>
+                        <h4>TaxiWebsite</h4>
+                        <p>React.js Sass Bootstrap</p>
                     </li>
-                    <li><a href="https://nicataliyev26.github.io/Clock/" target="_blank"><img src={Rectangle17} alt="Sorry" /></a>
-                        <h4>Clock</h4>
-                        <p>Sass Javascript</p></li>
+                    <li><a href="https://nicataliyev26.github.io/GunayBank/" target="_blank"><img src={Rectangle19} alt="Sorry" /></a>
+                        <h4>Günay Bank</h4>
+                        <p>Bootstrap  React.js</p>
+                    </li>                   
                     <li><a href="https://nicataliyev26.github.io/Minimalist-Website/" target="_blank"><img src={Rectangle16} alt="Sorry" /></a>
                         <h4>Minimalist</h4>
                         <p>Sass Bootstrap  React.js</p>
@@ -79,13 +81,12 @@ export class Down extends Component {
                         <h4>Sign In</h4>
                         <p> Sass React.js</p>
                     </li>
-                    <li><a href="https://nicataliyev26.github.io/GunayBank/" target="_blank"><img src={Rectangle19} alt="Sorry" /></a>
-                        <h4>Günay Bank</h4>
-                        <p>Bootstrap  React.js</p>
-                    </li>
-                    <li><a href="#" target="_blank"><img src={Rectangle18} alt="Sorry" /></a>
-                        <h4>Lorem ipsum dolor</h4>
-                        <p>Bootstrap  React.js</p>
+                    <li><a href="https://nicataliyev26.github.io/Clock/" target="_blank"><img src={Rectangle17} alt="Sorry" /></a>
+                        <h4>Clock</h4>
+                        <p>Sass Javascript</p></li>
+                    <li><a href="https://nicataliyev26.github.io/Portfolio-Template/#" target="_blank"  ><img src={Perfect} alt="Sorry" /></a>
+                        <h4>Perfect Portfolio</h4>
+                        <p> Sass Bootstrap  Jquery  </p>
                     </li>
                 </ul>
             </div>

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../Style/about__.scss'
 import Image from '../Image/coding.jpg'
 import { BsCaretRight } from "react-icons/bs";
-import Resume from '../Image/Nicat-Aliyev-CV.pdf'
+import Resume from '../Image/Nicat_Aliyev_Resume.pdf'
 import WOW from 'wowjs'
 
 
