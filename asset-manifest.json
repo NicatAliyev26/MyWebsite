@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MyWebsite/static/css/main.8d136fe5.chunk.css",
-    "main.js": "/MyWebsite/static/js/main.163cd6b5.chunk.js",
-    "main.js.map": "/MyWebsite/static/js/main.163cd6b5.chunk.js.map",
+    "main.js": "/MyWebsite/static/js/main.7f498461.chunk.js",
+    "main.js.map": "/MyWebsite/static/js/main.7f498461.chunk.js.map",
     "runtime-main.js": "/MyWebsite/static/js/runtime-main.38751742.js",
     "runtime-main.js.map": "/MyWebsite/static/js/runtime-main.38751742.js.map",
     "static/js/2.a6eb0668.chunk.js": "/MyWebsite/static/js/2.a6eb0668.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/MyWebsite/index.html",
     "static/css/main.8d136fe5.chunk.css.map": "/MyWebsite/static/css/main.8d136fe5.chunk.css.map",
     "static/js/2.a6eb0668.chunk.js.LICENSE.txt": "/MyWebsite/static/js/2.a6eb0668.chunk.js.LICENSE.txt",
-    "static/media/Nicat-Aliyev-CV.6b92fd62.pdf": "/MyWebsite/static/media/Nicat-Aliyev-CV.6b92fd62.pdf",
+    "static/media/Nicat_Aliyev_Resume.00757a59.pdf": "/MyWebsite/static/media/Nicat_Aliyev_Resume.00757a59.pdf",
     "static/media/Perfect.29dfe80e.PNG": "/MyWebsite/static/media/Perfect.29dfe80e.PNG",
     "static/media/Rectangle18.577d161b.png": "/MyWebsite/static/media/Rectangle18.577d161b.png",
     "static/media/Rectangle9.669933ca.png": "/MyWebsite/static/media/Rectangle9.669933ca.png",
@@ -19,12 +19,13 @@
     "static/media/coding.e24bf3cb.jpg": "/MyWebsite/static/media/coding.e24bf3cb.jpg",
     "static/media/gunaybankpro.0b0f7985.jpg": "/MyWebsite/static/media/gunaybankpro.0b0f7985.jpg",
     "static/media/profil-pic.48bc772c.jpg": "/MyWebsite/static/media/profil-pic.48bc772c.jpg",
-    "static/media/sign-in.b7335a3c.PNG": "/MyWebsite/static/media/sign-in.b7335a3c.PNG"
+    "static/media/sign-in.b7335a3c.PNG": "/MyWebsite/static/media/sign-in.b7335a3c.PNG",
+    "static/media/taxi.cd1dbd9e.PNG": "/MyWebsite/static/media/taxi.cd1dbd9e.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.38751742.js",
     "static/js/2.a6eb0668.chunk.js",
     "static/css/main.8d136fe5.chunk.css",
-    "static/js/main.163cd6b5.chunk.js"
+    "static/js/main.7f498461.chunk.js"
   ]
 }
