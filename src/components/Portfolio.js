@@ -5,7 +5,7 @@ import Rectangle14 from '../Image/sign-in.PNG'
 import Perfect from '../Image/Perfect.PNG'
 import Rectangle16 from '../Image/1.jpg'
 import Rectangle17 from '../Image/clock.png'
-import Rectangle9 from '../Image/Rectangle9.png'
+import Rectangle9 from '../Image/stylepoint.PNG'
 import Rectangle18 from '../Image/Rectangle18.png'
 import Rectangle19 from '../Image/gunaybankpro.jpg'
 import Rectangle20 from '../Image/taxi.PNG'
@@ -63,9 +63,9 @@ export class Up extends Component {
                         <h4>Günay Bank</h4>
                         <p>Bootstrap  React.js</p>
                     </li>                   
-                    <li><a href="https://nicataliyev26.github.io/Minimalist-Website/" target="_blank"><img src={Rectangle16} alt="Sorry" /></a>
-                        <h4>Minimalist</h4>
-                        <p>Sass Bootstrap  React.js</p>
+                    <li><a href="https://nicataliyev26.github.io/StylePoint/" target="_blank"><img src={Rectangle9} alt="Sorry" /></a>
+                        <h4>StylePoint</h4>
+                        <p>Sass React.js</p>
                     </li>
                 </ul>
             </div>

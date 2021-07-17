@@ -20,7 +20,7 @@ export class Introduce extends Component {
                         <p>My name is Nicat.</p>
                         <h1>Creative Frontend <br/> Developer</h1>
                         <p>Based in Baku, Azerbaijan.</p>
-                        <button className="btn btn--1">Get in touch</button>
+                       <a href="#contact"><button  className="btn btn--1">Get in touch</button></a> 
                     </div>
 
 

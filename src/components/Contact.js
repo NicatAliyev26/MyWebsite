@@ -25,7 +25,7 @@ export class Contact extends Component {
                         </p>           
                        </span>    
 
-                       <form action="mailto:nicataliyev905@gmail.com" method="post" enctype="text/plain" >
+                       <form >
                            <div className='name'>
                                <input type="text" placeholder='First name' required />
                                <input type="text" placeholder='Last name' required />
