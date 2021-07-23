@@ -1,0 +1,383 @@
+.section-about{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    background-color: #161616;
+
+
+
+    .about{
+        display: flex;
+        justify-content: space-around;
+
+        .number{
+            h1{
+                font-family: 'Roboto Mono', monospace;
+                color:#4BFFA5 ;
+            }
+        }
+        .text{
+            width: 45%;
+            margin-left: 70px;
+            
+            h1{
+                color: #fff;
+                font-family: 'Roboto Mono', monospace;
+            }
+
+            span{
+                display: flex;
+                width: 490px;
+                justify-content: flex-start;
+                .icon{
+                    width: 1rem;
+                    color: #4BFFA5;
+                    margin-top: 60px;
+                }
+                p{
+                    width: 71%;
+                    margin-top: 55px;
+                    margin-left: 17px;
+                    color: #989898;                   
+                    font-family: 'Space Grotesk', sans-serif;
+                    line-height: 1.6;                             
+                }
+            }
+            
+            .btn{
+                position: relative;
+                display: block;
+                overflow: hidden;
+                width: 97px;
+                height: 46px;
+                border: 2px solid #4BFFA5;
+                font-family:'Roboto Mono', monospace ;
+                background-color: transparent;
+                color: #4BFFA5;
+                margin-top: 70px;
+                cursor: none;
+                transition: all 500ms ease;
+                z-index: 0;
+
+                &::before{
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    margin: auto;
+                    background-color: #4BFFA5;
+                    transition: all 500ms ease;
+                    z-index: -1;
+                }
+
+
+                &--1::before{
+                    width: 0%;
+                    height: 100%;
+                }
+                &--1:hover{
+                    color: rgb(10, 10, 10);
+                     &::before{
+                         width: 100%;
+                     }
+                }
+            }
+        }
+
+        .picture{
+            width: 400px;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 70px;
+            img{
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .section-about{
+        width: 100%;
+        height: 1460px;
+        display: flex;
+        background-color: #161616;
+        align-items: center;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-bottom: 50px;
+    
+    
+    
+        .about{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+    
+            .number{
+                h1{
+                    font-size: 21px;
+                    font-family: 'Roboto Mono', monospace;
+                    color:#4BFFA5 ;
+                }
+            }
+            .text{
+                width: 55%;
+                margin-left: 70px;
+                margin-top: -26px;
+                
+                h1{
+                    font-size: 21px;
+                    color: #fff;
+                    font-family: 'Roboto Mono', monospace;
+                }
+    
+                span{
+                    display: flex;
+                    width: 490px;
+                    justify-content: flex-start;
+                    .icon{
+                        width: 1rem;
+                        color: #4BFFA5;
+                        margin-top: 60px;
+                    }
+                    p{
+                        width: 38%;
+                        margin-top: 55px;
+                        margin-left: 17px;
+                        color: #989898;                   
+                        font-family: 'Space Grotesk', sans-serif;
+                        line-height: 1.6;                             
+                    }
+                }
+                
+                button{
+                    width: 97px;
+                    height: 46px;
+                    border: 2px solid #4BFFA5;
+                    font-family:'Roboto Mono', monospace ;
+                    background-color: transparent;
+                    color: #4BFFA5;
+                    margin-top: 70px;
+                }
+            }
+    
+            .picture{
+                width: 400px;
+                height: 400px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                margin-top: 70px;
+                img{
+                    width: 306px;
+                    height: 361px; 
+                }
+            }
+        }
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) {
+    .section-about{
+        width: 100%;
+        height: 994px;
+        display: flex;
+        background-color: #161616;
+    
+    
+    
+        .about{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+    
+            .number{
+                h1{
+                    position: relative;
+                    top: 44px;
+                    font-family: 'Roboto Mono', monospace;
+                    color:#4BFFA5 ;
+                }
+            }
+            .text{
+                width: 45%;
+                margin-left: 70px;
+                
+                h1{
+                    color: #fff;
+                    font-family: 'Roboto Mono', monospace;
+                }
+    
+                span{
+                    display: flex;
+                    width: 490px;
+                    justify-content: flex-start;
+                    .icon{
+                        width: 1rem;
+                        color: #4BFFA5;
+                        margin-top: 60px;
+                    }
+                    p{
+                        width: 71%;
+                        margin-top: 55px;
+                        margin-left: 17px;
+                        color: #989898;                   
+                        font-family: 'Space Grotesk', sans-serif;
+                        line-height: 1.6;                             
+                    }
+                }
+                
+                button{
+                    width: 97px;
+                    height: 46px;
+                    border: 2px solid #4BFFA5;
+                    font-family:'Roboto Mono', monospace ;
+                    background-color: transparent;
+                    color: #4BFFA5;
+                    margin-top: 70px;
+                }
+            }
+    
+            .picture{
+                width: 400px;
+                height: 400px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 70px;
+                img{
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .section-about{
+        width: 100%;
+        height: 1034px;
+        display: flex;
+        background-color: #161616;
+    
+    
+    
+        .about{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+    
+            .number{
+                h1{
+                    position: relative;
+                    top: 57px;
+                    font-family: 'Roboto Mono', monospace;
+                    color:#4BFFA5 ;
+                }
+            }
+            .text{
+                width: 45%;
+                margin-left: 70px;
+                
+                h1{
+                    color: #fff;
+                    font-family: 'Roboto Mono', monospace;
+                }
+    
+                span{
+                    display: flex;
+                    width: 490px;
+                    justify-content: flex-start;
+                    .icon{
+                        width: 1rem;
+                        color: #4BFFA5;
+                        margin-top: 60px;
+                    }
+                    p{
+                        width: 71%;
+                        margin-top: 55px;
+                        margin-left: 17px;
+                        color: #989898;                   
+                        font-family: 'Space Grotesk', sans-serif;
+                        line-height: 1.6;                             
+                    }
+                }
+                
+                button{
+                    width: 97px;
+                    height: 46px;
+                    border: 2px solid #4BFFA5;
+                    font-family:'Roboto Mono', monospace ;
+                    background-color: transparent;
+                    color: #4BFFA5;
+                    margin-top: 70px;
+                }
+            }
+    
+            .picture{
+                width: 400px;
+                height: 400px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 70px;
+                img{
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .section-about{
+        width: 100%;
+        height: 620px;
+        display: flex;
+        background-color: #161616;
+    
+    
+    
+        .about{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            .number{
+                h1{
+                    position: relative;
+                    top: 0px;
+                    font-family: 'Roboto Mono', monospace;
+                    color:#4BFFA5 ;
+                }
+            }
+        }
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .section-about{
+        width: 100%;
+        height: 670px;
+        display: flex;
+        background-color: #161616;
+        align-items: center;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+}
